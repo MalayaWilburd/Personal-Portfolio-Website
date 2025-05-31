@@ -9,37 +9,37 @@ const projectsData = [
         id: 1,
         title: "Personal Portfolio Website",
         description: "Hey, you're on here right now! Built with React and Next.js, this responsive portfolio features server-side rendering, dynamic routing, and optimized performance.",
-        image: "/images/project-test-image.jpg",
+        image: "/images/personalportfolio.png",
         tag: ["All", "Software & Web Development"], //array that contains all tags that a certain project can be categorized as
         gitUrl: "https://github.com/MalayaWilburd",
-        previewUrl: "/"
+        previewUrl: ""
     },
      {
         id: 2,
         title: "Rental Management Database",
         description: "Designed and implemented a fully normalized MySQL database to manage properties, tenants, leases, rent payments, and expenses across multiple companies. ",
-        image: "/images/project-test-image.jpg",
+        image: "/images/remsdatabase.png",
         tag: ["All", "Software & Web Development"],
         gitUrl: "https://github.com/MalayaWilburd",
-        previewUrl: "/"
+        previewUrl: ""
     },
      {
         id: 3,
         title: "Jungle Text Adventure",
         description: "A C++ game where players explore a jungle, collect items, and solve puzzles using typed commands.",
-        image: "/images/project-test-image.jpg",
+        image: "/images/jungletext.png",
         tag: ["All", "Game Development"],
         gitUrl: "https://github.com/MalayaWilburd",
-        previewUrl: "/"
+        previewUrl: ""
     },
      {
         id: 4,
         title: "Flappy Bird Clone",
         description: "Developed a playable Flappy Bird clone in Unity using C#, featuring smooth physics-based controls, obstacle generation, and score tracking.",
-        image: "/images/project-test-image.jpg",
+        image: "/images/flappybird.png",
         tag: ["All", "Game Development"],
         gitUrl: "https://github.com/MalayaWilburd",
-        previewUrl: "/"
+        previewUrl: ""
     },
 ];
 
@@ -63,7 +63,7 @@ const ProjectsSection = () => {
     };
 
     return (
-        <section>
+        <section id="projects">
             <h2 className="text-center text-4xl font-bold text-white mt-4">
                 My Projects
             </h2>

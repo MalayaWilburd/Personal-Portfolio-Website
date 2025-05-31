@@ -11,14 +11,14 @@ const TAB_DATA = [
         content: (
             <ul className="list-disc pl-2">
                 <li>Next.js</li>
-                <li>React</li>
+                <li>React.js</li>
                 <li>C++</li>
                 <li>C#</li>
                 <li>Java</li>
+                <li>HTML</li>
                 <li>Javascript</li>
                 <li>SQL</li>
                 <li>Scripting</li>
-                <li>... still in progress</li>
             </ul>
         ),
     },
@@ -27,8 +27,9 @@ const TAB_DATA = [
         id: "education",
         content: (
             <ul className="list-disc pl-2">
-                <li>Arkansas Tech University</li>
-                <li>... still in progress</li>
+                <li>Arkansas Tech University (2022-2026)</li>
+                <li>Associate of Applied Science Information Technology</li>
+                <li>Associate of Arts General Education</li>
             </ul>
         ),
     },
@@ -38,7 +39,7 @@ const TAB_DATA = [
         content: (
             <ul className="list-disc pl-2">
                 <li>Certificate of Computer Proficiency</li>
-                <li>... still in progress</li>
+                <li>Certificate of Proficiency Mathematics</li>
             </ul>
         ),
     },
@@ -59,7 +60,7 @@ const AboutSection = () => {
     }
 
     return (
-        <section className="text-white">
+        <section id="about" className="text-white">
             <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
                 <Image src="/images/AboutSection-resized.jpg" width={500} height={500} alt="About Section Image" />
                 <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
@@ -70,7 +71,7 @@ const AboutSection = () => {
                         I’m deeply driven by curiosity, creativity, and the desire to make a lasting impact.
                         My goal is to launch a flight software company that blends technical excellence with real-world purpose. 
                         Along the way, I’m gaining experience through hands-on projects, internships, and constant learning. 
-                        Whether it's crafting backend systems, developing mobile apps, or designing user-focused tools, I enjoy turning ideas into working solutions.
+                        Whether it's crafting backend systems, developing apps, or designing user-focused tools, I enjoy turning ideas into working solutions.
                     </p>
                     <div className="flex flex-row mt-8">
                         <TabButton selectTab={() => handleTabChange("skills")} 

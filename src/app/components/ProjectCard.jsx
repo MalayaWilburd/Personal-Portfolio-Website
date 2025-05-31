@@ -23,12 +23,16 @@ const ProjectCard = ({ imgUrl, title, description, gitUrl, previewUrl }) => {
           >
             <CodeBracketIcon className="h-6 w-6 text-[#ADB7BE] hover:text-white" />
           </Link>
+         {previewUrl && (
           <Link
             href={previewUrl}
+            target="_blank"
+            rel="noopener noreferrer"
             className="h-14 w-14 border-2 rounded-full border-[#ADB7BE] hover:border-white flex items-center justify-center"
           >
             <EyeIcon className="h-6 w-6 text-[#ADB7BE] hover:text-white" />
           </Link>
+          )}
         </div>
       </div>
 

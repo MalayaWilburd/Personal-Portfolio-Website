@@ -36,20 +36,31 @@ const HeroSection = () => {
                                 repeat={Infinity}
                                 />
                     </h1>
-                    <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-                        ... website still in progress
-                    </p>
-                    <div>
-                        <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-white-500 via-gray-500 to-black-500 hover:bg-slate-200 text-white cursor-pointer">
-                            Hire Me
+                        <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
+                            Hello! Welcome to my personal portfolio website!
+                        </p>
+                    <div className="flex flex-col sm:flex-row sm:items-center gap-4">
+                        <a href="mailto:malayawilburd@gmail.com">
+                            <button className="px-6 py-3 w-full sm:w-fit rounded-full bg-gradient-to-br from-white-500 via-gray-500 to-black-500 hover:bg-slate-200 text-white cursor-pointer">
+                                Hire Me
                             </button>
-                        <button className="px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-white-500 via-gray-500 to-black-500 hover:bg-slate-200 text-white mt-3">
-                            <span className="block bg-[#121212] hover:bg-white-800 rounded-full px-5 py-2 cursor-pointer">
-                                Download Resume
-                            </span>
-                        </button>
+                        </a>
+
+                        <a
+                            href="/malayawilburd-resume.pdf"
+                            download
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <button className="px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-white-500 via-gray-500 to-black-500 hover:bg-slate-200 text-white">
+                                <span className="block bg-[#121212] hover:bg-white-800 rounded-full px-5 py-2 cursor-pointer">
+                                    Download Resume
+                                </span>
+                            </button>
+                        </a>
                     </div>
                 </motion.div>
+
                 <motion.div 
                     initial={{ opacity: 0, scale: 0.5 }} 
                     animate={{ opacity: 1, scale: 1 }} 

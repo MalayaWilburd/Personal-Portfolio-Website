@@ -41,7 +41,7 @@ const EmailSection = () => {
 
 
     return (
-    <section className="grid md:grid-cols-2 my-12 md:my-12 py-24 gap-4 relative">
+    <section id="contact" className="grid md:grid-cols-2 my-12 md:my-12 py-24 gap-4 relative">
 
         <div>
             <h5 className="text-xl font-bold text-white my-2">Let's Connect</h5>
@@ -74,7 +74,7 @@ const EmailSection = () => {
                     type="email" 
                     id="email" 
                     required 
-                    className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
+                    className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm italic rounded-lg block w-full p-2.5"
                     placeholder="example@email.com" 
                 />
                 </div>
@@ -90,8 +90,8 @@ const EmailSection = () => {
                     type="text" 
                     id="subject" 
                     required 
-                    className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
-                    placeholder="hi" 
+                    className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm italic rounded-lg block w-full p-2.5"
+                    placeholder="Hi" 
                 />
                 </div>
                 <div className="mb-6">
@@ -104,7 +104,7 @@ const EmailSection = () => {
                     <textarea
                         name="message"
                         id="message"
-                        className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
+                        className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm italic rounded-lg block w-full p-2.5"
                         placeholder="Leave your message here"
                     />
                 </div>
