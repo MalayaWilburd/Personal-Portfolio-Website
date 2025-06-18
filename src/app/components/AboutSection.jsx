@@ -40,6 +40,7 @@ const TAB_DATA = [
             <ul className="list-disc pl-2">
                 <li>Certificate of Computer Proficiency</li>
                 <li>Certificate of Proficiency Mathematics</li>
+                <li>NVIDIA Certificate of Competency Building LLM Applications With Prompt Engineering</li>
             </ul>
         ),
     },

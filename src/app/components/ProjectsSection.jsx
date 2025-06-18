@@ -41,6 +41,15 @@ const projectsData = [
         gitUrl: "https://github.com/MalayaWilburd",
         previewUrl: ""
     },
+    {
+        id: 5,
+        title: "RapidRoute: AI for Accelerated Mental Health Triage in Veteran Care",
+        description: "Developed an AI-powered tool to assist mental health professionals in triaging veterans' needs more effectively.",
+        image: "/images/rapidroute.png",
+        tag: ["All", "AI & Machine Learning"],
+        gitUrl: "https://github.com/MalayaWilburd",
+        previewUrl: ""
+    }
 ];
 
 const ProjectsSection = () => {
@@ -72,6 +81,12 @@ const ProjectsSection = () => {
                     onClick={handleTagChange} 
                     name="All" 
                     isSelected={tag === "All"} 
+                />
+
+                <ProjectTag 
+                    onClick={handleTagChange} 
+                    name="AI & Machine Learning" 
+                    isSelected={tag === "AI & Machine Learning"} 
                 />
 
                 <ProjectTag 
