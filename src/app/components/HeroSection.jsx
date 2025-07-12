@@ -47,7 +47,7 @@ const HeroSection = () => {
                         </a>
 
                         <a
-                            href="/malayawilburd-resume2025.pdf"
+                            href="/malayawilburd2025.pdf"
                             download
                             target="_blank"
                             rel="noopener noreferrer"
